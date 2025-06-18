@@ -1,7 +1,8 @@
-// import { Routes , Route } from 'react-router-dom';
+import Resume from "./page/Resume";
+
 function App() {
   return <>
-  
+    <Resume />
   </>;
 }
 
