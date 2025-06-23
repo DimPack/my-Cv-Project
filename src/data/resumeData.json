@@ -1,10 +1,60 @@
 {
   "personalInfo": {
+    "title": "Contacts",
     "fullName": "Dmytro Prostopchuk",
     "jobTitle": "Junior Full Stack Web Developer",
     "location": "Vinnytsia, Ukraine",
     "email": "csourgg@gmail.com",
     "phone": "+380931179084",
-    "linkedin": "https://www.linkedin.com/in/dmitry-prostopchuk-"
+    "linkedin": "https://www.linkedin.com/in/dmitry-prostopchuk-",
+    "avatar": "/avatar.jpg"
+  },
+  "experiences": {
+    "title": "Work Experience",
+    "items": [
+      {
+        "company": "Oscorp",
+        "position": "Trainee frond-end developer",
+        "startDate": "08.2021",
+        "endDate": "02.2022",
+        "description": [
+          "I write/develop HTML code.",
+          "Worked with the React framework.",
+          "Development using javascript.",
+          "Development for mobile devices."
+        ]
+      },
+      {
+        "company": "Freelance (Oscorp)",
+        "position": "Front-end developer wordpress",
+        "startDate": "07.2023",
+        "endDate": "Present",
+        "description": [
+          "I perform page layout on CMS WordPress.",
+          "Add additional functionality in working with the backend developer."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "institution": "Vinnytsia National Technical University",
+        "degree": "Master's degree in Civil Engineering",
+        "startDate": "2014",
+        "endDate": "2018"
+      },
+      {
+        "institution": "Training center by Freshcode",
+        "degree": "Fullstack Developer Course (React & Node.js)",
+        "startDate": "01.2024",
+        "endDate": "10.2024"
+      }
+    ]
+  },
+  "AboutMe": {
+    "title": "About Me",
+    "description": "I am passionate about web development and have been improving my skills in this area for many years. In 2021, I worked for a small company for 7 months, working in a front-end position. Unfortunately, my career path was interrupted due to the largescale war in Ukraine that started in 2022. At that time, I volunteered for military service and served for six months until I was demobilized due to a serious injury. After returning to civilian life, I focused on web development again, continuing to expand my knowledge and look for new opportunities for professional growth."
   }
 }
