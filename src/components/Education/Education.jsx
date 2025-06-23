@@ -1,5 +1,4 @@
 import "./Education.sass";
-
 import "../../index.sass";
 const Education = ({ education }) => {
   const { title, items } = education;

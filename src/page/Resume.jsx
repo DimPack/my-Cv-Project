@@ -4,6 +4,7 @@ import Contacts from '../components/Contacts/Contacts';
 import Experience from '../components/Experience/Experience';
 import Education from '../components/Education/Education';
 import Skills from '../components/Skills/Skills';
+import AboutMe from '../components/AboutMe/AboutMe';
 const Resume = () => {
     return (
         <div className="resume">
@@ -11,6 +12,7 @@ const Resume = () => {
             <Experience experiences={resumeData.experiences}/>
             <Education education={resumeData.education}/>
             <Skills />
+            <AboutMe aboutMe={resumeData.aboutMe}/>
         </div>
     );
 }

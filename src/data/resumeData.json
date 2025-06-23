@@ -5,7 +5,7 @@
     "jobTitle": "Junior Full Stack Web Developer",
     "location": "Vinnytsia, Ukraine",
     "email": "csourgg@gmail.com",
-    "phone": "+380931179084",
+    "phone": "+38(093)-117-90-84",
     "linkedin": "https://www.linkedin.com/in/dmitry-prostopchuk-",
     "avatar": "/avatar.jpg"
   },
@@ -53,7 +53,7 @@
       }
     ]
   },
-  "AboutMe": {
+  "aboutMe": {
     "title": "About Me",
     "description": "I am passionate about web development and have been improving my skills in this area for many years. In 2021, I worked for a small company for 7 months, working in a front-end position. Unfortunately, my career path was interrupted due to the largescale war in Ukraine that started in 2022. At that time, I volunteered for military service and served for six months until I was demobilized due to a serious injury. After returning to civilian life, I focused on web development again, continuing to expand my knowledge and look for new opportunities for professional growth."
   }
