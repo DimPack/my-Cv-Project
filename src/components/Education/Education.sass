@@ -1,3 +1,16 @@
-// .education-icon
-//   width: 32px
-//   height: 32px
+.education-item
+    position: relative
+
+.education-item:not(:first-child)
+    padding-top: 40px
+
+.education-date
+    font-style: italic
+
+.education-item:not(:first-child):before
+    content: ''
+    width: 100%
+    height: 3px
+    background-color: #dfd7d3
+    position: absolute
+    top: 20px

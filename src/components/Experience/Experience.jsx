@@ -1,5 +1,4 @@
-import './Experience.sass';
-import '../../index.sass';
+import "./Experience.sass";
 const Experience = ({ experiences }) => {
   const { title, items } = experiences;
 
@@ -10,16 +9,22 @@ const Experience = ({ experiences }) => {
       </div>
 
       {items.map((exp, idx) => (
-        <div key={idx}>
-          <h3>{exp.company}</h3>
-          <p>
-            {exp.position} ({exp.startDate} - {exp.endDate})
-          </p>
-          <ul className="experience-list">
-            {exp.description.map((desc, i) => (
-              <li key={i}>{desc}</li>
-            ))}
-          </ul>
+        <div key={idx} className="experience-block">
+          <div className="experience-date">
+            <p>{exp.startDate}</p>
+            <p>-</p>
+            <p>{exp.endDate}</p>
+
+          </div>
+          <div className="experience-info">
+            <h3>{exp.company}</h3>
+            <p>{exp.position}</p>
+            <ul className="experience-list">
+              {exp.description.map((desc, i) => (
+                <li key={i}>{desc}</li>
+              ))}
+            </ul>
+          </div>
         </div>
       ))}
     </div>

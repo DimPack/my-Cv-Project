@@ -5,9 +5,13 @@
     "jobTitle": "Junior Full Stack Web Developer",
     "location": "Vinnytsia, Ukraine",
     "email": "csourgg@gmail.com",
-    "phone": "+38(093)-117-90-84",
-    "linkedin": "https://www.linkedin.com/in/dmitry-prostopchuk-",
+    "phone": "+38 (093) - 117- 90 - 84",
+    "linkedin": "https://www.linkedin.com/in/dm-prostop/",
     "avatar": "/avatar.jpg"
+  },
+  "position": {
+    "title": "Dmytro Prostopchuk",
+    "description": "Full Stack Web Developer"
   },
   "experiences": {
     "title": "Work Experience",
@@ -55,6 +59,19 @@
   },
   "aboutMe": {
     "title": "About Me",
-    "description": "I am passionate about web development and have been improving my skills in this area for many years. In 2021, I worked for a small company for 7 months, working in a front-end position. Unfortunately, my career path was interrupted due to the largescale war in Ukraine that started in 2022. At that time, I volunteered for military service and served for six months until I was demobilized due to a serious injury. After returning to civilian life, I focused on web development again, continuing to expand my knowledge and look for new opportunities for professional growth."
+    "description": "I am passionate about web development and have been honing my skills in this field for several years. In 2021, I worked as a front-end developer at a small company. Unfortunately, my career was interrupted by the full-scale war in Ukraine. During that time, I voluntarily joined the military. In 2023, I was injured and subsequently discharged from military service. After returning to civilian life, I refocused on web development, continuing to deepen my knowledge and actively seek new opportunities for professional growth."
+  },
+  "languages": {
+    "title": "Languages",
+    "items": [
+      {
+        "language": "Ukrainian",
+        "level": "Native"
+      },
+      {
+        "language": "English",
+        "level": "B1"
+      }
+    ]
   }
 }

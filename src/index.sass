@@ -11,20 +11,39 @@ h1, h2, h3, h4, h5, h6
   color: #000
 
 h2
-  font-size: 18px
+  font-size: 20px
 
 h3
-  font-size: 16px
+  font-size: 18px
 
 .title-block
   display: flex
   align-items: center
-  justify-content: center
+  justify-content: start
   gap: 10px
+  padding: 20px 0
+
+  &:has(.name-author) .title::before
+    display: none
+    content: none
+
+  &:has(span)
+    padding: 0
 
 .title
   font-weight: bold
   line-height: 1.5
+  position: relative
+
+  &::before
+    content: ''
+    position: absolute
+    width: 200px
+    height: 30px
+    top: 0
+    left: 40px
+    background-color: #dfd7d3
+    z-index: -1
 
 .title-icon
   width: 20px

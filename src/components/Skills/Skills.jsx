@@ -1,4 +1,6 @@
 import Marquee from "react-fast-marquee";
+import "./Skills.sass";
+
 const skillIcons = import.meta.glob("/src/assets/Skills/*.svg", {
   eager: true,
   import: "default",
@@ -11,16 +13,23 @@ const iconsArray = Object.entries(skillIcons).map(([path, url]) => {
 
 const Skills = () => {
   return (
-    <Marquee speed={50} gradient={false}>
-      {iconsArray.map((icon) => (
-        <img
-          key={icon.name}
-          src={icon.url}
-          alt={icon.name}
-          style={{ height: "50px", marginRight: "40px" }}
-        />
-      ))}
-    </Marquee>
+    <div className="skills-container">
+      <Marquee
+        speed={50}
+        gradient={false}
+        className="skills-marquee"
+      >
+        {iconsArray.map((icon) => (
+          <img
+            key={icon.name}
+            src={icon.url}
+            alt={icon.name}
+            title={icon.name}
+            className="skill-icon"
+          />
+        ))}
+      </Marquee>
+    </div>
   );
 };
 
